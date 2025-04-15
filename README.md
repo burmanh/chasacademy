@@ -1,1 +1,1 @@
-# chasacademy
+# chasacademy init course
