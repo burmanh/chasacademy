@@ -21,6 +21,17 @@ let person = {
     hobbies: ["reading", "gaming", "coding"],
     greet: function() {
         console.log("Hello, my name is " + this.name)
-    }
+    },
+    highscore: [
+        { game: "Pacman", score: 1000 },
+        { game: "Tetris", score: 2000 },
+        { game: "Mario", score: 3000 }
+    ]
 }
 person.greet()
+console.log(person.highscore[0].game + " " + person.highscore[0].score)
+console.log(person.highscore[1].game + " " + person.highscore[1].score)
+console.log(person.highscore[2].game + " " + person.highscore[2].score)
+
+
+console.log(person)
